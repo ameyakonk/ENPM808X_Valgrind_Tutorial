@@ -7,13 +7,12 @@ Removed two memoryleak bugs using valgrind and used Kcachegrind to display the o
 ```
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/ameyakonk/ENPM808X_Valgrind_Tutorial.git
 cd <path to repository>
 mkdir build
 cd build
 cmake ..
 make
-Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
 
